@@ -1,0 +1,153 @@
+.features-2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.features-2 h1{
+  align-items: center;
+  text-align: center;
+  color: #605CA8;
+  font-size: 4rem;
+  width: 730px;
+  height: 96px;
+  font-weight: bold;
+  font-family: AeonikTRAL, sans-serif;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.card-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 568px;
+  height: 440px;
+  background-color:#605CA8;
+  border-radius: 10px;
+  background-image: url('../assets/dubai.png');
+  background-size: cover;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.card-1 h1{
+  margin: 0;
+  width: 320px;
+  height: 25px;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-weight: regular;
+  font-family: AeonikTRIAL, sans-serif;
+}
+
+.card-1 strong{
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: AeonikTRIAL, sans-serif;
+  color: #fff;
+}
+
+.card-1 p{
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: AeonikTRIAL, sans-serif;
+  max-height: 57px;
+  max-width: 320px;
+  color: #fff;
+}
+
+.card-1 button{
+  width: 157px;
+  height: 50px;
+  font-size: 1.8rem;
+  color: #8166AC;
+  border: none;
+  background-color: #fff;
+}
+
+.card-1 button::after{
+  background: none;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.6rem;
+  /* This is the calendar icon in FontAwesome */
+  content: '\f0a9';
+  width: 15px;
+  height: 20px;
+  color: #8166AC;
+}
+
+.card-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 568px;
+  height: 440px;
+  background-color:#FDD782;
+  border-radius: 10px;
+  background-image: url('../assets/eua.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-2 h1{
+  margin: 0;
+  width: 320px;
+  height: 25px;
+  font-size: 2rem;
+  color: #8166AC;
+  text-align: center;
+  align-items: center;
+  font-weight: regular;
+  font-family: AeonikTRIAL, sans-serif;
+}
+
+.card-2 strong{
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: AeonikTRIAL, sans-serif;
+  color: #8166AC;
+}
+
+.card-2 p{
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: AeonikTRIAL, sans-serif;
+  max-height: 57px;
+  max-width: 320px;
+  color: #8166AC;
+}
+
+.card-2 button{
+  width: 157px;
+  height: 50px;
+  font-size: 1.8rem;
+  color: #8166AC;
+  border: none;
+  background-color: #fff;
+}
+
+.card-2 button::after{
+  background: none;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.6rem;
+  content: '\f0a9';
+  width: 15px;
+  height: 20px;
+  color: #8166AC;
+}

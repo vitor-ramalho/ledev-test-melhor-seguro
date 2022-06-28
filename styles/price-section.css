@@ -1,0 +1,33 @@
+.price-section{
+  width: 100%;
+  height: 657px;
+}
+
+.price-section h1{
+  font-size: 4rem;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto;
+  color: #605CA8;
+}
+
+.price-card{
+  width: 500px;
+  height: 307px;
+  background-color: #605CA8;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price-card p{
+  font-size: 2rem;
+}
+.price-card strong{
+  font-size: 6rem;
+  font-weight: bold;
+}

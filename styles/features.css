@@ -1,0 +1,105 @@
+.features-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.features-container h1{
+  align-items: center;
+  text-align: center;
+  color: #605CA8;
+  font-size: 4rem;
+  width: 730px;
+  height: 96px;
+  font-weight: bold;
+  font-family: AeonikTRAL, sans-serif;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.slide-container{
+  position: relative;
+  display: flex;
+  width: 90%;
+  max-width: 1216px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  margin-top: 80px;
+  gap: 100px;
+  overflow: hidden;
+}
+
+
+.slide-fade{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.slide-image{
+  max-width: 147px;
+  max-height: 158px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide-content{
+  display: flex;
+}
+
+.navigation{
+  position: absolute;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+  gap: 10px;
+}
+
+.nav-btn{
+  background-color: #605CA8;
+  fill: #605CA8;
+  color: #605CA8;
+  width: 5px;
+  height: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.slide-title{
+  color: #605CA8;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: AeonikTRIAL, sans-serif;
+  text-align: center;
+}
+
+.slide-text{
+  font-size: 1.6rem;
+  color: #9D9D9D;
+  width: 350px;
+  text-align: center;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  top: 19%;
+  color: #605CA8;
+}
+
+.swiper-pagination{
+  position: absolute;
+  top: 70%;
+  color: #605CA8;
+}
+
+.swiper-pagination-bullet{
+  background-color: #605CA8;
+  width: 15px;
+  height: 15px;
+}

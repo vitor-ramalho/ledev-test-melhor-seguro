@@ -1,0 +1,45 @@
+.header-container{
+  width: 100%;
+  background: linear-gradient(90deg, #8367AD, #605CA8);
+  height: 80px;
+}
+
+.nav-container{
+  box-sizing: border-box;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items{
+ display: flex;
+ list-style: none;
+ gap: 5rem;
+}
+
+.logo{
+  max-height: 66px;
+  max-width: 174px;
+}
+
+.nav-items li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 20p;
+}
+
+.nav-items a{
+  display: block;
+  padding: .5rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: regular;
+  font-family: AeonikTRIAL, sans-serif;
+}
+#btn-mobile{
+  display: none;
+}

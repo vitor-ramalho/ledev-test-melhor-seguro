@@ -1,0 +1,99 @@
+@media screen and (max-width: 375px) {
+
+  .hero-container{
+    margin: 0;
+  }
+  .hero-container img{
+    display: none;
+  }
+
+  .hero-items{
+    max-width: 325px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-items h1 {
+    max-height: 100px;
+    max-width: 325px;
+    margin-left: 100px;
+  }
+
+  .form-container{
+    max-width: 325px;
+    align-items: center;
+    margin: 0;
+  }
+
+  .form-end{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .features-container h1{
+    max-height: 100px;
+    max-width: 325px;
+    font-size: 2.8rem;
+  }
+
+  .features-2 h1{
+    max-height: 100px;
+    max-width: 325px;
+    font-size: 2.8rem;
+  }
+
+  .faq-container h1{
+    margin-top: 50px;
+    max-height: 68px;
+    max-width: 325px;
+    font-size: 2.8rem;
+  }
+
+  .faq-container p{
+    max-height: 355px;
+    max-width: 325px;
+    font-size: 1.6rem;
+  }
+
+  .faq-container button {
+    max-height: 73px;
+    max-width: 325px;
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .faq-section{
+    height: 657px;
+  }
+
+}
+
+/*
+NAVBAR
+*/
+
+@media (max-width: 375px) {
+  #btn-mobile{
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 2.4rem;
+  }
+
+  .nav-items{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: linear-gradient(90deg, #8367AD, #605CA8);
+    z-index: 1000;
+  }
+
+  .nav-items.active{
+    display: block;
+  }
+}

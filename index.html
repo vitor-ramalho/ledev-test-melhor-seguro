@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/hero-section.css">
+  <link rel="stylesheet" href="./styles/companies.css">
+  <link rel="stylesheet" href="./styles/features.css">
+  <link rel="stylesheet" href="./styles/features-2.css">
+  <link rel="stylesheet" href="./styles/faq-section.css">
+  <link rel="stylesheet" href="./styles/price-section.css">
+  <link rel="stylesheet" href="./styles/contact-section.css">
+  <link rel="stylesheet" href="./styles/site-map.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/responsivo.css">
+  <title>Melhor Seguro</title>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="nav-container">
+      <img src="./assets/logo.png" alt="" class="logo" />
+      <nav class="nav-flex">
+        <button id="btn-mobile"><i class="fa-solid fa-bars"></i></button>
+        <ul class="nav-items" id="nav">
+          <li><a href="">Quem Somos</a></li>
+          <li><a href="">Cobertura</a></li>
+          <li><a href="">Atendimento</a></li>
+          <li><a href=""> Entrar<i class="far fa-user-circle"></i></a></li>
+      </nav>
+    </div>
+
+  </header>
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-items">
+        <h1>Encontre o seguro viagem com o melhor preço.</h1>
+        <div class="form-container">
+          <form action="" class="form">
+            <div class="form-item">
+              <label for="destino"><i class="fa-solid fa-location-dot"></i>Destino:
+              </label>
+              <select class="form-select" name="destino" id="destino">
+                <option value="america-sul">America do Sul</option>
+                <option value="america-norte">America do Norte</option>
+                <option value="america-central">America Central</option>
+                <option value="africa">África</option>
+                <option value="asia">Ásia</option>
+                <option value="europa">Europa</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label for="destino"><i class="fa fa-user-group"></i>Quantas pessoas?</label>
+              <div class="form-number">
+                <span class="input-number-decrement">
+                  <i class="fa-solid fa-minus"></i>
+                </span>
+                <input class="input-number" type="text" value="1" min="0" max="10">
+                <span class="input-number-increment">
+                  <i class="fa-solid fa-plus"></i>
+                </span>
+              </div>
+            </div>
+            <div class="form-item">
+              <label for="destino"><i class="fa fa-calendar"></i>Embarque</label>
+              <input type="date" class="date-input" placeholder="01/10/2021">
+            </div>
+            <div class="form-item">
+              <label for="destino"><i class="fa fa-calendar"></i>Desembarque</label>
+              <input type="date" class="date-input" placeholder="01/10/2021">
+            </div>
+            <div class="form-end">
+              <button class="form-button">
+                Pesquisar Seguro Viagem
+              </button>
+              <div class="form-check">
+                <input type="checkbox">
+                <label>Já estou em viagem</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <img src="./assets/saly.png" class="hero-image" alt="">
+    </div>
+  </section>
+
+  <section class="companies-section">
+    <div class="comp-container">
+      <img src="./assets/affinityseguros.png" alt="">
+      <img src="./assets/CG_assist-card.png" alt="">
+      <img src="./assets/logo-gta-1.png" alt="">
+      <img src="./assets/universal_assistance.png" alt="">
+      <img src="./assets/coris.png" alt="">
+    </div>
+  </section>
+
+  <section class="features-container">
+    <h1>Viagem com a segurança proporcionada pelas melhores seguradoras</h1>
+
+
+    <div class="slide-container swiper">
+      <div class="slide-content swiper-wrapper">
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide1.png" alt="" class="slide-image">
+          <p class="slide-title">Cancelamento de Viagem</h1>
+          <p class="slide-text">A maioria dos seguros apresentam 18 motivos passíveis de cancelamento de viagens e podem
+            garantir indenização nesses casos.</p>
+        </div>
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide1.png" alt="" class="slide-image">
+          <p class="slide-title">Cancelamento de Viagem</h1>
+          <p class="slide-text">A maioria dos seguros apresentam 18 motivos passíveis de cancelamento de viagens e podem
+            garantir indenização nesses casos.</p>
+        </div>
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide1.png" alt="" class="slide-image">
+          <p class="slide-title">Cancelamento de Viagem</h1>
+          <p class="slide-text">A maioria dos seguros apresentam 18 motivos passíveis de cancelamento de viagens e podem
+            garantir indenização nesses casos.</p>
+        </div>
+        <div class="slide-fade swiper-slide" id="atual">
+          <img src="./assets/slide1.png" alt="" class="slide-image">
+          <p class="slide-title">ACancelamento de Viagem</h1>
+          <p class="slide-text">A maioria dos seguros apresentam 18 motivos passíveis de cancelamento de viagens e podem
+            garantir indenização nesses casos.</p>
+        </div>
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide1.png" alt="" class="slide-image">
+          <p class="slide-title">Cancelamento de Viagem</h1>
+          <p class="slide-text">A maioria dos seguros apresentam 18 motivos passíveis de cancelamento de viagens e podem
+            garantir indenização nesses casos.</p>
+        </div>
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide2.png" alt="" class="slide-image">
+          <p class="slide-title">Cobertura Gestante</h1>
+          <p class="slide-text">Em casos de necessidade do atendimento médico de urgência/emergência para gestantes, o
+            seguro protege a segurada e garante os procedimentos necessários.</p>
+        </div>
+        <div class="slide-fade swiper-slide">
+          <img src="./assets/slide3.png" alt="" class="slide-image">
+          <p class="slide-title">Emergência Médica</h1>
+          <p class="slide-text">O seguro te protege em casos de emergências médicas que surgirem durante a viagem.</p>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+
+  <section class="features-2">
+    <h1>
+      Suporte em 24 horas em qualquer lugar do mundo.
+    </h1>
+    <div class="card-container">
+      <div class="card-1">
+        <h1>Conheça o seguro viagem para</h1>
+        <strong>Dubai</strong>
+        <p>Saiba quais são as exigências para ingressar em umas cidades mais modernas do mundo.</p>
+        <button>Saiba Mais</button>
+      </div>
+      <div class="card-2">
+        <p>Conheça o seguro viagem para</p>
+        <strong>Estados Unidos</strong>
+        <p>Dúvidas sobre coberturas para ingressar nos Estados Unidos? Aqui, te informamos o passo a passo para você
+          aproveitar ao máximo sua viagem com segurança.</p>
+        <button> Saiba Mais </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="faq-container">
+      <h1>Porque escolher o melhor seguro ?</h1>
+      <p>O Melhor Seguro é uma plataforma que compila diversas fornecedoras de seguros viagem, criada por profissionais
+        de
+        ampla experiência no turismo, atrelada a força de mais de cinco décadas no segmento do maior ecossistema de
+        turismo da América Latina, a BeFly.
+      </p>
+      <p>
+        Com o know how dos especialistas em viagens, desenvolvemos uma marca capaz
+        de
+        oferecer Seguro Viagem de maneira personalizada e transparente, a diferentes perfis de passageiros. Tudo isso
+        priorizando a agilidade e excelência no atendimento. Aqui, você encontra o melhor seguro.
+      </p>
+      <button>Consulte nosso FAQ e esclareça suas dúvidas</button>
+    </div>
+  </section>
+
+  <section class="price-section">
+    <h1>Contratar uma seguradora vale a pena ?</h1>
+    <div class="card-container">
+      <div class="price-card">
+        <p>Consulta médica nos</p>
+        <strong>EUA</strong>
+        <strong>R$500,00</strong>
+        <p>Sem seguradoras</p>
+      </div>
+      <div class="price-card">
+        <p>Emergência em acidentes</p>
+        <strong>EUROPA</strong>
+        <strong>€1500,00</strong>
+        <p>Sem seguradoras</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      <img src="./assets/contact.png" alt="">
+      <div class="contact-form">
+        <h1>Receba nossas promoções e novidades em seu e-mail!</h1>
+        <div class="input-contact">
+          <input type="email" placeholder="Digite seu e-mail">
+          <button>Cadastrar</button>
+        </div>
+        <div class="check-contact">
+          <input type="checkbox" id="term-cond">
+          <label for="term-cond">Ao clicar em cadastrar, concordo que li e aceito os Termos de Uso, Condições Gerais do
+            Seguro e Cobertura do produto.</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-map-section">
+    <div class="map-container">
+      <img src="./assets/melhor-seguro.png" alt="">
+      <div class="links-uteis">
+        <h1>Links úteis</h1>
+        <a href="">Quem somos</a>
+        <a href="">Cobertura</a>
+        <a href="">Atendimento</a>
+        <a href="">Politica de Privacidade</a>
+        <a href="">Termos de Uso</a>
+        <a href="">FAQ-Perguntas Frequentes</a>
+      </div>
+      <div class="atendimento">
+        <h1>Atendimento</h1>
+        <p>(31)3290-9066</p>
+        <h1>Central de Ajuda</h1>
+        <p>atendimento@melhorseguro.com.br</p>
+        <h1>Formas de Pagamento</h1>
+        <p>Crédito em 10 vezes.</p>
+        <img src="./assets/pagamentos.png" alt="">
+      </div>
+      <div class="social">
+        <img class="anchor" src="./assets/arrow-up.png" alt="">
+        <img src="./assets/whatsapp.png" alt="">
+        <img src="./assets/instagram.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <div class="footer-container">
+      <div class="copy">
+        <p>Belvitur Viagens e Turismo S.A.</p>
+        <p>© 2021 Melhor Seguro</p>
+      </div>
+      <div class="seguranca">
+        <img src="./assets/seguranca.png" alt="">
+      </div>
+    </div>
+  </section>
+  <div>
+
+</body>
+<script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"
+  integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="./js/form-number.js"></script>
+<script src="./js/nav-menu.js"></script>
+<script src="./js/swiper.js"></script>
+</html>

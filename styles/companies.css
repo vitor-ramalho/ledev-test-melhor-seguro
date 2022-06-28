@@ -1,0 +1,22 @@
+.companies-section{
+  background-color: #605CA8;
+  width: 100%;
+}
+
+.comp-container{
+  position: relative;
+  max-width: 1261px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  gap: 43px;
+}
+
+.comp-container img{
+  position: relative;
+  max-width: 160px;
+  max-height: 70px;
+}
